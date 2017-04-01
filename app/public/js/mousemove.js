@@ -686,7 +686,8 @@ $(document).ready(function() {
         }
     });
 
-    const backgroundURLS = ['url(./images/manlying4THUMB.png)', 'url(./images/teen2s32THUMB.png)', 'url(./images/uncanny2THUMB.png)', 'url(./images/man2THUMB.png)'];
+    const backgroundURLS = ['url(./images/manlying4THUMB.png)', 'url(./images/teen2s32THUMB.png)', 'url(./images/uncanny2THUMB.png)', 'url(./images/man2THUMB.png)',
+                            'url(./images/manlying4THUMB.png)', 'url(./images/teen2s32THUMB.png)', 'url(./images/uncanny2THUMB.png)', 'url(./images/man2THUMB.png)'];
 
     const removeBackgroundBlooms = () => {
         $('.blooming-menu__item-btn-wrapper').each(function(index) {
