@@ -30,14 +30,14 @@ $(document).ready(function() {
     //     $('#chaneysegura').css({'transition': 'all 15s ease', 'filter': 'brightness(2)'});
     // }, 5000);
 
-    $("img.lazy").lazyload({
-        threshold: 700,
-        effect: "fadeIn",
-        event: "mouseover",
-        load: function() {
-            $('#cv').css({'opacity': '1'});
-        }
-    });
+    // $("img.lazy").lazyload({
+    //     threshold: 700,
+    //     effect: "fadeIn",
+    //     event: "mouseover",
+    //     load: function() {
+    //         $('#cv').css({'opacity': '1'});
+    //     }
+    // });
 
     const typeAbout = () => {
         $("#text1").typed({
